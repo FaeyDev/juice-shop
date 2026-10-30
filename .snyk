@@ -1,0 +1,82 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-HBS-1566555:
+    - '*':
+        reason: 'Tidak ada versi fix tersedia dari maintainer hbs. Severity Low, risiko information exposure terbatas pada template engine non-kritikal.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-16415209:
+    - '*':
+        reason: 'Package decompress sudah tidak di-maintain, tidak ada fix resmi. Hanya digunakan pada fitur download/extract non-produksi di Juice Shop.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17937327:
+    - '*':
+        reason: 'Package decompress sudah tidak di-maintain, tidak ada fix resmi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17937340:
+    - '*':
+        reason: 'Package decompress sudah tidak di-maintain, tidak ada fix resmi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESSTAR-559095:
+    - '*':
+        reason: 'Dependency transitif dari decompress yang sudah tidak di-maintain, tidak ada fix resmi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17874437:
+    - '*':
+        reason: 'Package decompress sudah tidak di-maintain, tidak ada fix resmi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-17937347:
+    - '*':
+        reason: 'Package decompress sudah tidak di-maintain, tidak ada fix resmi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-20254116:
+    - '*':
+        reason: 'CRITICAL - Tidak ada versi fix tersedia untuk decompress. Direncanakan untuk diganti dengan package alternatif (unzipper/node-stream-zip) pada iterasi berikutnya. Risiko dimitigasi karena hanya dipakai di fitur non-produksi.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'CRITICAL - Package marsdb sudah tidak di-maintain sejak 2019, tidak ada fix resmi. Direncanakan untuk diganti dengan database client-side alternatif pada iterasi berikutnya.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-GOT-2932019:
+    - '*':
+        reason: 'Fix tersedia di got 11.8.5/12.1.0 namun merupakan breaking change besar pada package download. Dijadwalkan untuk upgrade terpisah dengan testing menyeluruh.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-3248783:
+    - '*':
+        reason: 'Fix tersedia namun memerlukan upgrade got/cacheable-request yang berisiko breaking change. Dijadwalkan untuk upgrade terpisah.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964064:
+    - '*':
+        reason: 'Dependency transitif dari got, menunggu upgrade terjadwal.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964068:
+    - '*':
+        reason: 'Dependency transitif dari got, menunggu upgrade terjadwal.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-NOTEVIL-2385946:
+    - '*':
+        reason: 'Package notevil sudah tidak di-maintain, tidak ada fix resmi. Digunakan pada fitur evaluasi kode terbatas di Juice Shop.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-UUID-16133035:
+    - '*':
+        reason: 'Fix tersedia di uuid 11.1.1/14.0.0 namun memerlukan upgrade sequelize yang berisiko breaking change pada layer database.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-BASICFTP-20419408:
+    - '*':
+        reason: 'Fix tersedia di basic-ftp 6.2.1 namun memerlukan upgrade proxy-agent chain yang berisiko breaking change.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECODEURICOMPONENT-21802484:
+    - '*':
+        reason: 'Dependency transitif dari got, menunggu upgrade terjadwal.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-MINIMATCH-15309438:
+    - '*':
+        reason: 'Fix tersedia namun memerlukan upgrade replace package yang berisiko breaking change pada build script.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-MINIMATCH-15353389:
+    - '*':
+        reason: 'Fix tersedia namun memerlukan upgrade replace package yang berisiko breaking change pada build script.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-PICOMATCH-21248802:
+    - '*':
+        reason: 'Dependency transitif dari build tooling sqlite3 (node-gyp), bukan dependency langsung. Risiko eksploitasi terbatas pada waktu build/development.'
+        expires: 2026-12-31T00:00:00.000Z
