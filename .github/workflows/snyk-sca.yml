@@ -25,4 +25,4 @@ jobs:
         run: npx snyk monitor
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
